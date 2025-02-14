@@ -1,0 +1,89 @@
+.recipeFilters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dishType, .diet, .mealType {
+    margin-right: 5px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: -5px;
+    padding: 5px;
+    transition: all 0.3s;
+}
+.dishType:hover, .diet:hover, .mealType:hover {
+    filter: brightness(0.7);
+}
+.dishType {
+    background-color: #dbf2fa;
+    color: #00ABEA;
+    border: #00ABEA solid 0.5px;
+}
+.diet {
+    background-color: #DEF3DB;
+    color: #24A70F;
+    border: #24A70F solid 0.5px;
+}
+.mealType {
+    background-color: #FBE1C8;
+    color: #EA7603;
+    border: #EA7603 solid 0.5px;
+}
+.recipeCardCenter {
+    width: 300px;
+    height: 550px;
+    padding: 15px;
+}
+.recipeAllContainer h3 {
+    color: #6D2932;
+    transition: all 0.3s ease-in-out;
+}
+.recipeAllContainer .cuisineType {
+    color: #6D2932;
+    border-bottom: 2px solid;
+    height: 25px;
+    width: 150px;
+}
+.recipeAllContainer {
+    transition: filter 0.5s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.recipeAllContainer:hover, .recipeAllContainer.selected {
+    background-color: #6D2932;
+    filter: brightness(1.2);
+    transform: scale(1.03);
+}
+.recipeAllContainer:hover h3, .recipeAllContainer.selected h3 {
+    color: #E8D8C4;
+}
+.recipeAllContainer:hover .cuisineType, .recipeAllContainer.selected .cuisineType {
+    color: #E8D8C4;
+}
+.recipeAllContainer:hover .ingredientBtn, .recipeAllContainer.selected .ingredientBtn {
+    filter: brightness(1.5);
+}
+.recipeAllContainer:hover .fullRecipeBtn, .recipeAllContainer.selected .fullRecipeBtn {
+    filter: brightness(1.5);
+}
+.recipeCardCenter img {
+    box-shadow: 0 10px 50px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.moreBtns {
+    display: flex;
+    justify-content: center;
+}
+.ingredientBtn {
+    margin-right: 5px;
+}
+.ingredientBtn, .fullRecipeBtn {
+    padding: 5px 0;
+    width: 155px;
+    background-color: #6D2932;
+    color: #E8D8C4;
+    font-size: 15px;
+    border: transparent;
+    transition: all 0.5s ease-in-out;
+}
+.ingredientBtn:hover, .fullRecipeBtn:hover {
+    outline: 0.5px solid #E8D8C4;
+}

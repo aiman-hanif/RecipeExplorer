@@ -1,0 +1,42 @@
+.filters, .modBtns {
+    display: flex;
+    justify-content: center;
+}
+.filters {
+    margin-top: 10px;
+}
+.modBtns {
+    margin-top: 20px;
+}
+.indFilter {
+    margin-right: 10px;
+}
+.indFilter:last-child {
+    margin-right: 0;
+}
+.centerText {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-weight: 600;
+    color: #561C24;
+}
+.filterBtns {
+    margin-right: 15px;
+    width: 20%;
+    padding: 20px 0;
+    background-color: #561C24;
+    color: #C7B7A3;
+    border: transparent;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+.filterBtns:hover {
+    filter:brightness(1.5);
+    transform: scale(1.05);
+}
+.filterBtns:last-child {
+    margin-right: 0;
+}

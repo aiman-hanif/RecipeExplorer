@@ -1,0 +1,19 @@
+.dropdown {
+    display: flex;
+}
+.resetBtn {
+    margin-right: -2;
+    background-color: transparent;
+    border-color: transparent;
+    transition: all 0.3s;
+}
+.fa-arrows-rotate {
+    color: #561C24;
+    transition: color 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+.fa-arrows-rotate:hover {
+    filter:brightness(1.5);
+    transform: rotate(180deg) scale(1.2);
+}
+
+

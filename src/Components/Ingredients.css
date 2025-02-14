@@ -1,0 +1,17 @@
+.table {
+    display: flex;
+    padding: 10px;
+}
+.ingredients {
+    padding-right: 5px;
+}
+.weights {
+    padding-left: 5px;
+}
+.ingredients, .weights {
+    background-color: #6D2932;
+    color: #E8D8C4;
+}
+.heading {
+    text-align: center;
+}
